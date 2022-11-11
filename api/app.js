@@ -3,7 +3,7 @@ const cors = require('cors');
 
 
 //? routes
-
+const ipfs = require('./routes/ipfs');
 
 //? global vars
 const app = express();
@@ -11,6 +11,8 @@ const app = express();
 app.use(express.urlencoded({ extended: false }))
 app.use(express.json())
 app.use(cors())
+
+app.use('/ipfs', ipfs)
 
 
 
