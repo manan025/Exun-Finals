@@ -1,0 +1,111 @@
+.main{
+    display: flex;
+}
+
+.options, .mails, .main-area{
+    border: 1px solid rgb(242, 242, 242, 0.2);
+    height: 99vh;
+    max-height: 100vh;
+    overflow-y: auto;
+}
+
+.options{
+    width: 5%;
+    margin-left: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    border-left: 0;
+    cursor: auto;
+    cursor: pointer;
+}
+
+.icons{
+    margin-top: 40%;
+    margin-bottom: 30%;
+}
+
+.mails{
+    width: 30%;
+}
+
+.head{
+    border-bottom: 2px solid white;
+}
+.head h1{
+    font-size: 2.05vw;
+    text-align: center;
+    color: #00B929;
+}
+
+.mails ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    /* padding-left: 5%; */
+}
+.mails li{
+    margin: 0;
+    transition: 0.3s;
+    padding: 10px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+.mails li:hover{
+    background-color: #222222;
+}
+.mails ul h1{
+    margin: 0;
+    margin-top: 10px;
+    font-family: montserrat-semi;
+    font-size: 1.8vw;
+}
+.mails ul h3{
+    font-size: 1vw;
+    margin-top: 5px;
+    margin-left: 0.3%;
+    font-family: montserrat;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.mails ul p{
+    width: 95%;
+    opacity: 0.5;
+    margin-top: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.mails hr{
+    width: 65%;
+    margin: auto;
+    margin-top: 0;
+    opacity: 0.1;
+}
+
+.main-area{
+    width: 55%;
+    padding: 0 2%;
+    padding-left: 10%;
+}
+.main-area h1{
+    font-size: 2.7vw;
+    margin-top: 7%;
+    margin-bottom: 10px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.main-area h2{
+    font-weight: 400;
+    font-size: 1vw;
+    margin-left: 2%;
+}
+.main-area span{
+    opacity: 0.5;
+}
