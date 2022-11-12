@@ -10,6 +10,7 @@ import Register from './Pages/Register';
 import Wallet from './Pages/Wallet'
 import Mail from './Pages/Mail';
 import Project from './Pages/Project';
+import Shop from './Pages/Shop';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,6 +22,7 @@ root.render(
         <Route path='/register' element={<Register />} />
         <Route path='/wallet' element={<Wallet/>} />
         <Route path='/mail' element={<Mail/>} />
+        <Route path='/shop' element={<Shop/>} />
         <Route path='/project' element={<Project/>} />
       </Routes>
     </BrowserRouter>
