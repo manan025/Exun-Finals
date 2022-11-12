@@ -1,0 +1,24 @@
+.credit{
+    background: linear-gradient(106.09deg, #5CB900 2.08%, rgba(87, 222, 40, 0.7) 103.59%);
+    box-shadow: 0px 4px 25px -1px rgba(0, 185, 41, 0.47);
+    backdrop-filter: blur(20px);
+    border-radius: 25px;
+    width: 320px;
+    height: 210px;
+    padding: 25px;
+}
+.credit h3{
+    font-size: 1rem;
+}
+.credit span{
+    color: #CCCCCC;
+}
+.credit h2{
+    font-size: 1.8rem;
+}
+.container{
+    display: flex;
+}
+.card{
+    margin-left: 2%;
+}

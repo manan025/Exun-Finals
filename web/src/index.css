@@ -1,4 +1,27 @@
+@font-face {
+  font-family: montserrat;
+  src: url(../public/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: montserrat-bold;
+  src: url(../public/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: montserrat-semi;
+  src: url(../public/fonts/Montserrat-SemiBold.ttf);
+}
+
+
 *{
+  color: #ffffff;
+  font-family: montserrat;
+}
+
+
+body {
+  margin: 0;
   background-color: #0A0A0A;
-  color: white;
+  overflow-x: hidden;
 }
