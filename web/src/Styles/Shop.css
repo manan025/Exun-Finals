@@ -1,0 +1,30 @@
+.onlyflex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.add{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.names p{
+    color: #7A7272;
+    font-size: 0.9rem;
+    margin-top: -5%;
+}
+.add h2{
+    color: #00B929;
+    font-size: 2rem;
+}
+.add button{
+    background-color: #00B929;
+    width: 120px;
+    height: 35px;
+}

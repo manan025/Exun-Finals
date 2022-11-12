@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 import Cookies from 'universal-cookie'
 
 //? Components
-import Sidebar from '../Components/Sidebar'
+import Sidebar from '../components/Sidebar'
 
 function Home() {
   const cookie = new Cookies()
