@@ -5,8 +5,9 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 //? Pages
 import Home from './Pages/Home'
-import Sample from "./Pages/Sample";
-
+import Login from './Pages/Login';
+import Register from './Pages/Register';
+import Wallet from './Pages/Wallet'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
