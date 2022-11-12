@@ -2,6 +2,7 @@ import { RiListCheck2, RiTaskLine, RiFileUserLine } from "react-icons/ri";
 import {GiChocolateBar} from 'react-icons/gi'
 import {GrUserWorker} from 'react-icons/gr'
 import '../Styles/Components.css'
+
 const Sidebar = () => {
     let links = [
       {

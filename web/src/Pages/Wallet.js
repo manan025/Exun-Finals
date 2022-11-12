@@ -1,11 +1,7 @@
-import Sidebar from '../components/Sidebar'
+import React from 'react'
 import '../Styles/Wallet.css'
 import kanye from '../static/kanye.jpg'
 import kanye2 from '../static/kanye2.png'
-import { BiTransfer } from 'react-icons/bi';
-import { MdOutlinePayment } from 'react-icons/md';
-import { AiOutlineShoppingCart } from 'react-icons/ai';
-import { FiMoreHorizontal } from 'react-icons/fi';
 const Wallet = () => {
   return (
     <>
