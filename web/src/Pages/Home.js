@@ -1,7 +1,10 @@
 import React from 'react'
 import '../Styles/Home.css'
-import {Link, redirect, RedirectFunction} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import Cookies from 'universal-cookie'
+
+//? Components
+import Sidebar from '../Components/Sidebar'
 
 function Home() {
   const cookie = new Cookies()
@@ -13,7 +16,9 @@ function Home() {
   }
   
   return(
-    <div>Home</div>
+    <>
+    <Sidebar />
+    </>
   )
 }
 
