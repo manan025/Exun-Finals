@@ -2,6 +2,10 @@ import Sidebar from '../components/Sidebar'
 import '../Styles/Wallet.css'
 import kanye from '../static/kanye.jpg'
 import kanye2 from '../static/kanye2.png'
+import { BiTransfer } from 'react-icons/bi';
+import { MdOutlinePayment } from 'react-icons/md';
+import { AiOutlineShoppingCart } from 'react-icons/ai';
+import { FiMoreHorizontal } from 'react-icons/fi';
 const Wallet = () => {
   return (
     <>
@@ -79,10 +83,36 @@ const Wallet = () => {
             <div className="action">
                 <div className="content">
                     <div className="icons">
-
+                        <BiTransfer size="50px" className='icon'/>
                     </div>
                     <div className="text">
                         <p>Tranfer</p>
+                    </div>
+                </div>
+                <div className="content">
+                    <div className="icons">
+                        <MdOutlinePayment size="50px" className='icon'/>
+                    </div>
+                    <div className="text">
+                        <p>Payment</p>
+                    </div>
+                </div>
+            </div>
+            <div className="action">
+                <div className="content">
+                    <div className="icons">
+                        <AiOutlineShoppingCart size="50px" className='icon'/>
+                    </div>
+                    <div className="text">
+                        <p>Purchase</p>
+                    </div>
+                </div>
+                <div className="content">
+                    <div className="icons">
+                        <FiMoreHorizontal size="50px" className='icon'/>
+                    </div>
+                    <div className="text">
+                        <p>More</p>
                     </div>
                 </div>
             </div>
