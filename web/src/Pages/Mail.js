@@ -9,11 +9,11 @@ function Mail() {
   return (
     <div className='main'>
         <div className='options'>
-            <Link to='/' className='icons'><BsArrowLeftCircle size={40}/></Link>
-            <FaInbox className='icons' size={30} />
-            <MdLabelImportantOutline className='icons' size={30} />
-            <BsStarFill className='icons' size={30} />
-            <MdSend className='icons' size={30} />
+            <Link to='/' className='icon'><BsArrowLeftCircle size={40}/></Link>
+            <FaInbox className='icon' size={30} />
+            <MdLabelImportantOutline className='icon' size={30} />
+            <BsStarFill className='icon' size={30} />
+            <MdSend className='icon' size={30} />
         </div>
 
         <div className='mails'>

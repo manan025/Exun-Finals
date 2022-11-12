@@ -48,7 +48,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 1.8%;
+    margin-top: 7%;
 }
 .account img{
     width: 60px;
@@ -104,4 +104,38 @@ align-items: center;
 .grid{
     display: flex;
     justify-content: baseline;
+}
+.icons{
+background: #222222;
+border-radius: 20px;
+width: 90px;
+height: 90px;
+}
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text p{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.icons{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.column2{
+    margin-left: 15%;
+}
+.action{
+    margin-top: 5%;
 }
