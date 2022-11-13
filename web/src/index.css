@@ -36,7 +36,7 @@ body {
 .container{
   max-width: 83%;
   height: 100vh;
-  /* margin-left: auto; */
-  overflow: hidden;
+  margin-left: auto;
+  /* overflow: hidden; */
   background-color: #0A0A0A;
 } 

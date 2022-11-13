@@ -5,9 +5,14 @@ import controller from '../static/image 47.png'
 import alexa from '../static/image 48.png'
 import watch from '../static/image 50.png'
 import bose from '../static/image 51.png'
+import Sidebar from '../components/Sidebar'
 const Shop = () => {
   return (
     <>
+    <div className="split">
+        <Sidebar highlight={"groovy"} />
+        <div className="container" >
+    <div className="grid">
     <div className="shop">
         <h1>Shop</h1>
         <h4>Featured</h4>
@@ -107,6 +112,9 @@ const Shop = () => {
             </div>
         </div>
         </div>
+    </div>
+    </div>
+    </div>
     </div>
     </>
   )
