@@ -21,25 +21,44 @@ function Project() {
                 <span>Manage</span>
             </div>
 
-            <div className='flex task-container'>
-                <div className='tasks'>
-                    <label>ToDo:</label>
+            <tab style={{display: 'none'}}>
+                <div className='flex task-container'>
+                    <div className='tasks'>
+                        <label>ToDo:</label>
 
-                    <div className='task'>
-                        Input Fields
+                        <div className='task'>
+                            Input Fields
 
-                        {/* <div classname='' */}
+                            {/* <div classname='' */}
+                        </div>
+                    </div>
+
+                    <div className='tasks'>
+                        <div className='task'></div>
+                    </div>
+
+                    <div className='tasks'>
+                        <div className='task'></div>
                     </div>
                 </div>
+            </tab>
 
-                <div className='tasks'>
-                    <div className='task'></div>
-                </div>
+            <tab>
+                <div className='files'>
+                    <div className='flex' >
+                        <ul>
+                            <li id='upload'>Upload File +</li>
+                            <li>File one</li>
+                            <li>File two</li>
+                            <li>File three</li>
+                            <li>File four</li>
+                            <li>File five</li>
+                        </ul>
 
-                <div className='tasks'>
-                    <div className='task'></div>
+                        <iframe src='https://vanshpro.co' />
+                    </div>
                 </div>
-            </div>
+            </tab>
         </div>
     </main>
     </>
