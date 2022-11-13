@@ -8,6 +8,7 @@ import {MdLabelImportantOutline, MdSend} from 'react-icons/md'
 function Mail() {
 
     const [mails, setMails] = useState([])
+    
 
     useEffect(() => {
         fetch('http://localhost:8000/mail/getmails', {
