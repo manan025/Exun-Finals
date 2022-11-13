@@ -32,7 +32,7 @@ function Login() {
   return (
     <>
     <Link to='/' id='home' />
-    <div className='split'>
+    <div className='split1'>
       <div className='circle' />
       <div className='left'>
         <h1>Welcome to the Office!</h1>

@@ -2,7 +2,7 @@ import React from 'react'
 import '../Styles/Project.css'
 
 //? Components
-import Sidebar from '../Components/Sidebar'
+import Sidebar from '../components/Sidebar'
 
 function Project() {
   return (

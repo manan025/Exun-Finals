@@ -1,48 +1,78 @@
-import { RiListCheck2, RiTaskLine, RiFileUserLine } from "react-icons/ri";
-import {GiChocolateBar} from 'react-icons/gi'
-import {GrUserWorker} from 'react-icons/gr'
 import '../Styles/Components.css'
+import {
+    AiOutlineHome,
+    AiOutlineSearch,
+    AiFillCompass,
+    AiFillSetting,
+    AiOutlineUser,
+  } from "react-icons/ai";
+import { BsDisc } from "react-icons/bs";
+import {FiLogOut} from 'react-icons/fi'
+import { Link } from "react-router-dom";
 
-const Sidebar = () => {
-    let links = [
-      {
-        name: 'DASHBOARD',
-        link: '/',
-        icon: <RiListCheck2/>,
-    },
-    {
-        name: 'TASKS',
-        link: '/tasks',
-        icon: <RiTaskLine/>,
-    },
-    {
-        name: 'STOCK',
-        link: '/stock',
-        icon: <GiChocolateBar/>,
-    },
-    {
-        name: 'EMPLOYEES',
-        link: '/employee',
-        icon: <GrUserWorker/>,
-    },
-    {
-        name: 'CCTV Footage',
-        link: '/camera',
-        icon: <RiFileUserLine/>,
-    }
-]
-  return ( 
-    <>
-      <div className="sidebar">
-        <div className="name">
-            <h1>theoffice.com</h1>
-        </div>
-        <div className="links">
 
+function Menu({highlight}) {
+
+  const logout = () => {
+    localStorage.removeItem('groovyuser')
+    window.location = '/'
+  }
+
+  return (
+    <div className="menu">
+          <Link to="/">
+           <h2>the office</h2>
+          </Link>
+
+          <ul>
+            <h3>Menu</h3>
+
+            <Link to="/community">
+              <li>
+                <AiOutlineHome size={20} />
+                <span>Home</span>
+              </li>
+            </Link>
+
+            <Link to="/wallet" style={highlight=='groovy'? {opacity: 1} : {}}>
+              <li>
+                <BsDisc size={18} />
+                <span>wallet</span>
+              </li>
+            </Link>
+
+            <Link to="/project">
+              <li>
+                <AiOutlineSearch size={20} />
+                <span>project</span>
+              </li>
+            </Link>
+
+            <Link to="/email">
+              <li>
+                <AiFillCompass size={20} />
+                <span>Intra Mail</span>
+              </li>
+            </Link>
+
+            <hr />
+
+            <Link to="/community">
+              <li className='gg'>
+                <AiFillSetting size={20} />
+                <span>Settings</span>
+              </li>
+            </Link>
+
+            <Link to="" style={{color: '#CB303B', opacity: 1, position: 'absolute', bottom: 10, left: 47}} onClick={logout}>
+              <li className='logout'  >
+                <FiLogOut size={32} />
+                <span>Logout</span>
+              </li>
+            </Link>
+          </ul>
         </div>
-      </div>
-    </>
   )
 }
 
-export default Sidebar
+export default Menu
