@@ -16,18 +16,13 @@
 .credit h2{
     font-size: 1.8rem;
 }
-.container{
-    /* display: flex; */
-}
-.card{
-    /* margin-left: 2%;      */
-}
+
 .column{
     display: flex;
-    /* justify-content: center; */
+    justify-content: space-between;
     /* align-items: center;. */
     flex-direction: column;
-    margin-left: 10%;
+    padding-left: -10%;
     /* margin-top: 2%; */
 }
 .transactions{
@@ -64,7 +59,7 @@
     margin-left: 10%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     min-width: 100%;
 }
 .bhai p{
@@ -103,7 +98,7 @@ align-items: center;
 }
 .grid{
     display: flex;
-    justify-content: baseline;
+    justify-content: space-between;
 }
 .icons{
 background: #222222;
@@ -114,13 +109,13 @@ height: 90px;
 .action{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     width: 80%;
 }
 .content{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    /* align-items: center; */
     flex-direction: column;
 }
 .text p{
@@ -134,8 +129,12 @@ height: 90px;
     align-items: center;
 }
 .column2{
-    margin-left: 15%;
+    /* margin-left: 15%; */
 }
 .action{
     margin-top: 5%;
+}
+.menu{
+    margin-left: 0;
+    justify-content: left;
 }

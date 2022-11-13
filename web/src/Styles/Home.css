@@ -1,0 +1,70 @@
+.projects{
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: auto;
+    align-items: center;
+}
+.button button{
+width: 145px;
+height: 31px;
+background: rgba(0, 185, 41, 0.16);
+border: 1px solid #00B929;
+border-radius: 11px;
+}
+.oof p{
+    margin-top: -7%;
+    color: #00B929;
+}
+.main1{
+    width: 320px;
+height: 160px;
+
+background: linear-gradient(180deg, #AF003F 0%, rgba(238, 102, 151, 0.22) 100%);
+border-radius: 22px;
+padding: 25px;
+}
+.main1 h3{
+    font-size: 1.5rem;
+}
+.mains{
+    display: flex;
+    justify-content: space-evenly;
+}
+.progress{
+    width: 50px;
+    height: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+.progress2{
+    width: 50px;
+    height: 5px;
+    /* background-color: white; */
+    border-radius: 10px;background-image: url(../static/progress.png);
+
+}
+.flexi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hm{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hm img{
+    min-width: 80vw;
+    margin-left: -15%;
+    text-align: center;
+    background-size: cover;
+}

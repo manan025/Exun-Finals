@@ -6,9 +6,13 @@ import { BiTransfer } from 'react-icons/bi';
 import { MdOutlinePayment } from 'react-icons/md';
 import { AiOutlineShoppingCart } from 'react-icons/ai';
 import { FiMoreHorizontal } from 'react-icons/fi';
+import Sidebar from '../components/Sidebar'
 const Wallet = () => {
   return (
     <>
+    <div className="split">
+        <Sidebar highlight={"groovy"} />
+        <div className="container" >
     <div className="grid">
 
         <div className="column">
@@ -117,6 +121,8 @@ const Wallet = () => {
                 </div>
             </div>
         </div>
+    </div>
+    </div>
     </div>
     </div>
     </>

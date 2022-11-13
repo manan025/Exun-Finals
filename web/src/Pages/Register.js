@@ -32,7 +32,7 @@ function Register() {
 
   return (
     <>
-    <div className='split'>
+    <div className='split1'>
       <div className='circle' id='register-circle' />
       <div className='left'>
         <h1>Create your Account</h1>
