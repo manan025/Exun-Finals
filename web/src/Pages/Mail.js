@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import {Link} from 'react-router-dom'
 import '../Styles/Mail.css';
 import {FaUserCircle, FaInbox} from 'react-icons/fa'
@@ -6,6 +6,17 @@ import {BsArrowLeftCircle, BsStarFill} from 'react-icons/bs'
 import {MdLabelImportantOutline, MdSend} from 'react-icons/md'
 
 function Mail() {
+
+    const [mails, setMails] = useState([])
+
+    useEffect(() => {
+        fetch('http://localhost:8000/mail/getmails', {
+            method: 'POST',
+            headers: {"Content-Type": "application/json"}
+          })
+          .then(res => console.log(res))
+    }, [])
+
   return (
     <div className='main'>
         <div className='options'>

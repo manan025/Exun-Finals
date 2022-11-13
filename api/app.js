@@ -9,6 +9,7 @@ require('dotenv').config()
 // const blockchain = require('./routes/blockchain');
 const auth = require('./routes/auth');
 const projects = require('./routes/projects');
+const mail = require('./routes/mail');
 
 
 //? global vars
@@ -28,6 +29,7 @@ mongoose.connect(process.env.DB, {
 // app.use('/blockchain', blockchain)
 app.use('/auth', auth)
 app.use('/project', projects)
+app.use('/mail', mail)
 
 
 

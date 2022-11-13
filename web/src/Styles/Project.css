@@ -41,3 +41,32 @@ h5{
     border-radius: 20px;
     padding: 20px 20px;
 }
+
+
+.files{
+    margin-top: 3%;
+    background-color: #131313;
+    width: 92%;
+    padding: 20px;
+    border-radius: 20px;
+}
+.files ul{
+    list-style-type: none;
+    width: 50%;
+    padding: 0;
+    border-right: 1px solid rgb(255, 255, 255, 0.2);
+}
+.files li{
+    border: 1px solid rgb(255, 255, 255, 0.2);
+    padding: 20px 0;
+    text-align: center;
+}
+#upload{
+    color: #00B929;
+    cursor: pointer;
+}
+
+.files iframe{
+    width: 47%;
+    height: 50vh;
+}
